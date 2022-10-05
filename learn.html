@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Online Exhibit</title> 
+    <link rel="stylesheet" href="styles/learn.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+    <nav>
+        <a href="index.html"><img src="Images/sallogo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="games.html">GAMES</a></li>
+        <li><a href="projects.html">PROJECT</a></li>
+        <li><a href="roleplay.html">ROLEPLAY</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>Salcedo's Interactive Website</h1><p>This website encourage sustainability for a safer environment whilst showcasing the talents and creativity of section Salcedo.</p>
+        </div>
+    </section>
+<section>
+    <section class="course">
+        <h1>Who are we?</h1>
+        <p>We are Grade 11-Salcedo</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Overview</h3>
+            <p> Grade 11 – Salcedo under the advisory of Engr. Cecil A. Cespedes was named after the Filipino Scientist Dr. Juan Salcedo Jr.</p>
+        </div>
+    <div class="course-col">
+            <h3>Initiative</h3>
+            <p>The students of 11 – Salcedo created this project to present a sustainable and creative way of products that are made of recyclable materials.</p>
+        </div>
+        <div class="course-col">
+            <h3>How did we do this?</h3>
+            <p>From planning, collecting materials, and polishing the exhibit, Salcedo exhibited their immense effort and teamwork.</p>
+        </div>
+        </div>
+    </section>
+    </section>
+   <!-------JavaScript for Toggle Menu------>
+    <script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+        function showMenu (){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        
+    </script>
+    
+</body>
+</html>

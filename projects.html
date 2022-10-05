@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Online Exhibit</title> 
+    <link rel="stylesheet" href="styles/styled.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+    <nav>
+        <a href="index.html"><img src="Images/sallogo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="games.html">GAMES</a></li>
+        <li><a href="projects.html">PROJECT</a></li>
+        <li><a href="roleplay.html">ROLEPLAY</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>Salcedo's Classworks</h1><p>The purpose of this project was to create a sustainable/recyclable Christmas tree that we can proudly display in our room with the twist of Earth Science</p>
+        </div>
+    </section>
+<section>
+    <!-------General Population------>
+    <section class="general">
+        <h1>    Christmas Tree from Plastic Bottles</h1>
+        <p>The Process</p>
+        <div class="row">
+        <div class="general-col">
+            <img src="Images/Gathering.jpg">
+            <h3>Gathering of Plastic Bottles.</h3>
+            </div>
+        <div class="general-col">
+            <img src="Images/Assembling.png">
+            <h3>Assembling of the Tree.</h3>
+            </div>
+        <div class="general-col">
+            <img src="Images/Finish.jpg">
+            <h3>Finish Product.</h3>
+            </div>
+        </div>
+    </section>
+    <section class="general">
+        <h1>3D Letters</h1>
+        <p>The Process</p>
+        <div class="row">
+        <div class="general-col">
+            <img src="Images/Cutting.JPG">
+            <h3>Cutting of Cardboads.</h3>
+            </div>
+        <div class="general-col">
+            <img src="Images/Paint.jpg">
+            <h3>Painting the Letters.</h3>
+            </div>
+        <div class="general-col">
+            <img src="Images/3d.jpg">
+            <h3>Finish Product.</h3>
+            </div>
+        </div>
+    </section>
+    <section class="general">
+        <h1>Christmas Balls from Plastic Bottles</h1>
+        <p>The Process</p>
+        <div class="row">
+        <div class="general-col">
+            <img src="Images/Plasticgathering.JPG">
+            <h3>Gathering of Plastic Bottles.</h3>
+            </div>
+        <div class="general-col">
+            <img src="Images/paintingofbottles.JPG">
+            <h3>Painting the Bottles.</h3>
+            </div>
+        <div class="general-col">
+            <img src="Images/christmasballs.jpg">
+            <h3>Finish Product.</h3>
+            </div>
+        </div>
+    </section>
+    </section>
+   <!-------JavaScript for Toggle Menu------>
+    <script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+        function showMenu (){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        
+    </script>
+    
+</body>
+</html>
